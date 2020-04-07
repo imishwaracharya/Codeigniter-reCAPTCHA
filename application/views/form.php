@@ -123,7 +123,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
 	<?php }?>
 	
-		<p class="heading">Fill all details then click submit. Click here for full <a href="https://www.thewebography.com/codeigniter-google-recaptcha/">article</a> on www.TheWebography.com</p>
+		<p class="heading">Fill all details then click submit.</p>
+
 		
 		
 		<form method="post" action="<?php echo site_url('Recaptcha_form');?>">
@@ -147,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">Click here to read full <a href="https://www.thewebography.com/codeigniter-google-recaptcha/">article and other CodeIgniter tutorials</a> on www.TheWebography.com | Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
 </body>
