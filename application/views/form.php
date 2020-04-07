@@ -123,7 +123,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
 	<?php }?>
 	
-		<p class="heading">Fill all details then click submit. Click here for full <a href="user_guide/">article</a>.</p>
+		<p class="heading">Fill all details then click submit. Click here for full <a href="https://www.thewebography.com/codeigniter-google-recaptcha/">article</a> on www.TheWebography.com</p>
 		
 		
 		<form method="post" action="<?php echo site_url('Recaptcha_form');?>">
